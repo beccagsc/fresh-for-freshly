@@ -1,2 +1,12 @@
 Describe how you would thoroughly test the "www.freshly.com/login" page below:
 
+
+- For the email and password fields, various injections including cross-site scripting and SQL
+- Verify error messages for blank and malformed email addresses
+- Verify message for entering an email addresses that already exists in the system
+- Verify error messages for entering no password or the wrong password
+- Verify that the 'Forgot Password?' flow works correctly
+- Verify that the 'Get Started' link directs to freshly.com/join-now
+- Verify that all the links on the page have the correct hrefs
+- Verify look and functionality of page on Chrome, Firefox and Edge
+- And, of course, valid email-password combos can successfully log in
